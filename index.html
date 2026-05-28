@@ -17,7 +17,7 @@
                 <h1 class="loader-terminal" data-text="INITIALIZING NEOSPACE_SYSTEM...">INITIALIZING NEOSPACE_SYSTEM...</h1>
                 
                 <div class="loader-avatar-container">
-                    <img src="nave.png.png" alt="Nave Insignia NEOSPACE" class="loader-avatar">
+                    <img src="nave.png" alt="Nave Insignia NEOSPACE" class="loader-avatar">
                 </div>
                 
                 <div class="loader-bar-container">
@@ -39,8 +39,21 @@
 
     <section id="inicio" class="hero">
         <div class="hero-contenido">
-            <h1 class="glitch-text">Un juego espacial con vibra retro, inspirado en la emoción de los clásicos que marcaron una generación</h1>
-            <p>Sobrevive al caos espacial. Destruye, esquiva y conquista la galaxia.</p>
+            
+            <h1 class="glitch-text-pro" data-text="NEOSPACE">NEOSPACE</h1>
+            
+            <div class="nave-principal-container">
+                <img src="nave.png" alt="Nave Insignia NEOSPACE" class="nave-principal">
+            </div>
+
+            <div class="subtext-container">
+                <p class="tagline-arcade">
+                    Un juego espacial con vibra retro, inspirado en la emoción de los clásicos que marcaron una generación.
+                </p>
+                <p class="tagline-alerta">
+                    <span class="alerta-icono">⚠️</span> Sobrevive al caos espacial. Destruye, esquiva y conquista la galaxia.
+                </p>
+            </div>
             
             <div id="simulador-hero" class="panel-cabina-contenedor">
                 <div class="radar-cuadrante">
@@ -102,23 +115,49 @@
         </form>
     </section>
 
-    <footer style="text-align: center; padding: 2rem 1rem;">
+    <footer class="cyber-footer">
+        <div class="footer-overlay"></div>
         
-        <div class="footer-info" style="margin-bottom: 1rem; display: flex; flex-direction: column; align-items: center; gap: 10px;">
-            <p style="margin: 0; font-size: 1.1rem;">📍 Cali, Colombia</p>
+        <div class="footer-content">
             
-            <a href="https://www.instagram.com/neospace2026?igsh=Yjk3eHJqNTdlM2d3" target="_blank" style="color: #00f2fe; transition: transform 0.3s; display: inline-block;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                </svg>
-            </a>
+            <div class="footer-brand">
+                <p class="ubicacion">📍 Cali, Colombia</p>
+                <div class="redes-box">
+                    <a href="https://www.instagram.com/neospace2026?igsh=Yjk3eHJqNTdlM2d3" target="_blank" class="instagram-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-credits">
+                <h4>[ ESCUADRÓN DE DESARROLLO ]</h4>
+                <ul class="credits-list">
+                    <li><span class="credits-icono">👩‍🚀</span> Flor (Líder de Proyecto)</li>
+                    <li><span class="credits-icono">🚀</span> Yilber Alexis</li>
+                    <li><span class="credits-icono">🚀</span> Kelly Sofía Arcos</li>
+                    <li><span class="credits-icono">🚀</span> Jackson Córdoba</li>
+                    <li><span class="credits-icono">🚀</span> Joan Sebastián Oquendo</li>
+                    <li><span class="credits-icono">🚀</span> Yiddian Hernández</li>
+                    <li><span class="credits-icono">🚀</span> Sergio García</li>
+                </ul>
+            </div>
+
+            <div class="footer-tech">
+                <h4>[ CENTRO DE COMANDO ]</h4>
+                <p class="instituto">Instituto Centro de Sistemas del Valle</p>
+                <p class="curso">Especialidad: Diseño Web</p>
+                <p class="fecha">// REGISTRO DE ENTREGA: 2026 //</p>
+            </div>
+
         </div>
 
-        <hr style="border: none; border-top: 1px solid rgba(0, 242, 254, 0.2); width: 50%; margin: 0 auto 1rem auto;">
-
-        <p style="margin: 0; opacity: 0.7; font-size: 0.9rem;">Proyecto académico de diseño web — 2026</p>
+        <div class="footer-bottom">
+            <p>📡 ESTADO: MISIÓN COMPLETADA // © 2026 NEOSPACE</p>
+        </div>
     </footer>
 
     <script src="script.js" defer></script>
